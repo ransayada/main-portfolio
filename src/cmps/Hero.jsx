@@ -1,10 +1,10 @@
 import React from "react";
 
-import {BsGithub, BsLinkedin} from "react-icons/bs";
+import { BsGithub, BsLinkedin } from "react-icons/bs";
 
 const Hero = () => {
   return (
-    <div >
+    <div>
       <div className="bg-white border-gray-200 px-2 sm:px-4 py-2.5  dark:bg-gray-700">
         <div className="container flex flex-row justify-between items-center mx-auto hero-high">
           <div className="w-full md:w-1/2">
@@ -16,8 +16,20 @@ const Hero = () => {
               </span>
             </h1>
             <div className="container flex flex-row justify-around items-center">
-            <a href="#" className=" bg-indigo-500 hover:bg-indigo-400 text-white font-bold py-2 px-4 border-b-4 border-indigo-700 hover:border-indigo-500 rounded"> <BsGithub /> <p>Github</p></a>
-            <a href="#" className="bg-indigo-500 hover:bg-indigo-400 text-white font-bold py-2 px-4 border-b-4 border-indigo-700 hover:border-indigo-500 rounded"> <BsLinkedin /> <p>LinkedIn</p></a>
+              <a
+                href="https://github.com/ransayada"
+                className=" bg-indigo-500 hover:bg-indigo-400 text-white font-bold py-2 px-4 border-b-4 border-indigo-700 hover:border-indigo-500 rounded"
+              >
+                {" "}
+                <BsGithub /> <p>Github</p>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/ran-sayada/"
+                className="bg-indigo-500 hover:bg-indigo-400 text-white font-bold py-2 px-4 border-b-4 border-indigo-700 hover:border-indigo-500 rounded"
+              >
+                {" "}
+                <BsLinkedin /> <p>LinkedIn</p>
+              </a>
             </div>
           </div>
 
