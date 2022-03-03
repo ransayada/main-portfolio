@@ -7,12 +7,11 @@ const Footer = () => {
         <div className="max-w-screen-xl mx-auto px-4">
           <ul className="max-w-screen-md mx-auto text-lg font-light flex flex-wrap justify-between">
             <li className="my-2">
-              <a
+              <p
                 className="text-gray-400 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white transition-colors duration-200"
-                href="#"
-              >
+                >
                 Connect
-              </a>
+              </p>
               <p className="text-gray-200">Ran.sayada@gmail.com</p>
             </li>
 

@@ -210,10 +210,10 @@ const Projects = () => {
 
         <p className="mt-1 text-sm text-gray-600 dark:text-gray-400">
         <br />
-        <span className="text-lg text-gray-200 underline">❗ This Portfolio was made with React, TypeScript and Tailwind ❗ </span><br />
-                ❗ Go and check my other projects on github ❗ <br />
-                ❗ Go and  me a question on LinkedIn ❗ <br/>
-                ❗ Go and  me an email via Connect ❗ <br/>
+        <span className="text-lg text-gray-200 underline"> This Portfolio was made with React, TypeScript and Tailwind  </span><br />
+                 Go and check my other projects on github  <br />
+                 Go and send me a question on LinkedIn about the projects <br/>
+                 Go and send me an email via Connect  <br/>
         </p>
         <button className="m-5 text-gray-300  hover:text-gray-800 dark:hover:text-white border-2 border-gray-600 dark:border-gray-600 rounded-full px-4 py-2 transition-colors duration-200 transform bg-white hover:bg-gray-200 focus:bg-gray-400 focus:outline-none"
       onClick={() =>{window.scrollTo({
