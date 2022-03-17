@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+
+.arrows {
+	width: 60px;
+	height: 72px;
+	position: absolute;
+	left: 50%;
+	margin-left: -30px;
+	bottom: 20px;
+}
+
+.arrows path {
+	stroke: crimson;
+	fill: transparent;
+	stroke-width: 2px;	
+	animation: arrow 3s infinite;
+}
+
+@keyframes arrow
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
